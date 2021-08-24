@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="game.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+    </style>
+</head>
+<body>
+    <h1>HAND CRICKET</h1>
+    <div id="toss"></div>
+    <div id="win">
+        <p>YOU WON CHAMP, NGL IT WAS A TOUGH ONE, YOU DESERVE THIS</p>
+        <br>
+        <button id="playAgain1" onclick="location.href='game.html'">PLAY AGAIN</button>
+    </div>
+    <div id="lose">
+        <p>YOU LOST LMAO, WHAT A LOSER</p>
+        <br>
+        <button id="playAgain2" onclick="location.href='game.html'">PLAY AGAIN</button>
+    </div>
+    <div id="board">
+    <div id="player">
+        <h2> YOU </h2>
+        <div id="finalp"></div>
+        <div id="choice">
+            <button id="1ch">
+                <img src="i1.png">
+            </button>
+            <button id="2ch">
+                <img src="i2.png">
+            </button>
+            <button id="3ch">
+                <img src="i3.png">
+            </button>
+            <button id="4ch">
+                <img src="i4.png">
+            </button>
+            <button id="5ch">
+                <img src="i5.png">
+            </button>
+            <button id="6ch">
+                <img src="i6.png">
+            </button>
+        </div>
+        <br>
+        <div id="statsp"></div>
+    </div>
+    <div id="bot">
+        <h2> GOAT BOT </h2>
+        <div id="finalb"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="statsb"></div>
+    </div>
+    </div>
+    <script src="game.js" defer></script>
+</body>
+</html>
